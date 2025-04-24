@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="ICT289FINALBUILD" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bin/Debug/ICT289FINALBUILD" prefix_auto="1" extension_auto="1" />
+				<Option working_dir="C:/Program Files/CodeBlocks/MinGW/x86_64-w64-mingw32/bin" />
+				<Option object_output="obj/Debug/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-g" />
+				</Compiler>
+			</Target>
+			<Target title="Release">
+				<Option output="bin/Release/ICT289FINALBUILD" prefix_auto="1" extension_auto="1" />
+				<Option working_dir="C:/Program Files/CodeBlocks/MinGW/x86_64-w64-mingw32/bin" />
+				<Option object_output="obj/Release/" />
+				<Option type="0" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+			<Add directory="C:/Program Files/CodeBlocks/MinGW/x86_64-w64-mingw32/include" />
+		</Compiler>
+		<Linker>
+			<Add library="freeglut" />
+			<Add library="opengl32" />
+			<Add library="glu32" />
+			<Add library="winmm" />
+			<Add library="gdi32" />
+			<Add directory="C:/Program Files/CodeBlocks/MinGW/x86_64-w64-mingw32/lib" />
+		</Linker>
+		<Unit filename="ball.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="ball.h" />
+		<Unit filename="button.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="button.h" />
+		<Unit filename="collision.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="collision.h" />
+		<Unit filename="gobal_vars.h" />
+		<Unit filename="loadImage.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="loadImage.h" />
+		<Unit filename="loadObj.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="loadObj.h" />
+		<Unit filename="main.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="player.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="player.h" />
+		<Unit filename="portal.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="portal.h" />
+		<Unit filename="scene1.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="scene1.h" />
+		<Unit filename="scene2.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="scene2.h" />
+		<Unit filename="scene3.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="scene3.h" />
+		<Unit filename="scene4.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="scene4.h" />
+		<Unit filename="transformation.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="transformation.h" />
+		<Extensions>
+			<lib_finder disable_auto="1" />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>
